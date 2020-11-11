@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\main.cpp
+	<iostream>
+
+1605125117 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.cpp
+
+1605125117 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.cpp
+	<iostream>
+
