@@ -3,16 +3,18 @@
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1605217078 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.cpp
+1605219107 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
 1605130045 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1605217000 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.h
+1605219081 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.h
 	<iostream>
 	<vector>
 	<windows.h>
+	<fstream>
+	<sstream>
 	"Uzytkownik.h"
 
 1605129959 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.h

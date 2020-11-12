@@ -1,5 +1,6 @@
 bin/
 obj/
-KsiazkaAdresowaOOP.cbp
+KsiazkaAdresowaOOP.*
+KsiazkaAdresowaOOP.depend
 plan.uxf
-KsiazkaAdresowaOOP.layout
+Uzytkownicy.txt
