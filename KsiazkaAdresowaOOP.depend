@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1605219787 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\main.cpp
+	<iostream>
+	"KsiazkaAdresowa.h"
+
+1605474008 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.cpp
+	"KsiazkaAdresowa.h"
+
+1605219790 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1605474561 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.h
+	<iostream>
+	"UzytkownikMenedzer.h"
+
+1605473920 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.h
+	<iostream>
+
+1605473047 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1605474561 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	"Uzytkownik.h"
+
+1605475347 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownikmenedzer.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZuzytkownikami.h"
+
+1605475347 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\plikzuzytkownikami.h
+	<iostream>
+	<fstream>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1605475347 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\plikzuzytkownikami.cpp
+	"PlikZuzytkownikami.h"
+
+1605475347 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownikmenedzer.cpp
+	"UzytkownikMenedzer.h"
+
