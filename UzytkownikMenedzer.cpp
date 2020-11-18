@@ -56,3 +56,8 @@ void UzytkownikMenedzer::rejestracjaUzytkownika()
     cout << endl << "Konto zalozono pomyslnie" << endl << endl;
     system("pause");
 }
+
+void UzytkownikMenedzer::wczytajUzytkownikowZPliku()
+{
+   uzytkownicy = plikZuzytkownikami.wczytajUzytkownikowZPliku();
+}
