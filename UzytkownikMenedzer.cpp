@@ -50,7 +50,6 @@ void UzytkownikMenedzer::rejestracjaUzytkownika()
 
     uzytkownicy.push_back(uzytkownik); //dodawanie obiektu o nazwie uzytkownik do vectora o nazwie uzytkownicy
 
-    PlikZuzytkownikami plikZuzytkownikami;
     plikZuzytkownikami.dopiszUzytkownikaDoPliku(uzytkownik);
 
     cout << endl << "Konto zalozono pomyslnie" << endl << endl;
