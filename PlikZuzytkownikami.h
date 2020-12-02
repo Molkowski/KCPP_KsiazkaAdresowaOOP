@@ -20,11 +20,15 @@ using namespace std;
     bool czyPlikJestPusty();
     string zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(Uzytkownik uzytkownik);
     Uzytkownik pobierzDaneUzytkownika(string daneJednegoUzytkownikaOddzielonePionowymiKreskami);
+    vector <Uzytkownik> uzytkownicy;
 
 public:
     PlikZuzytkownikami(string NAZWAPLIKUZUZYTKOWNIKAMI) : nazwaPlikuZUzytkownikami(NAZWAPLIKUZUZYTKOWNIKAMI){};
     void dopiszUzytkownikaDoPliku(Uzytkownik uzytkownicy);
-    vector <Uzytkownik> wczytajUzytkownikowZPliku();
+    vector <Uzytkownik> wczytajUzytkownikowZPliku(); //metoda zwracajaca vector przyjmujacy wartosci zgodne z klasa Uzytkownik (id, login, haslo)
+
+    void zapiszWszystkichUzytkownikowDoPliku(vector <Uzytkownik> uzytkownicy);
+
  };
 
 #endif
