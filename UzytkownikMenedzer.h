@@ -14,20 +14,24 @@ using namespace std;
 
 class UzytkownikMenedzer
 {
-
     int idZalogowanegoUzytkownika;
-    vector <Uzytkownik> uzytkownicy; //vector klasy Uzytkownik o nazwie uzytkownicy
-
+    vector <Uzytkownik> uzytkownicy; //vector o nazwie uzytkownicy przyjmujacy wartoœci z klasy Uzytkownik (id, login, haslo.
+                                    //W momencie przypisania do niego wartosci w jednej z metod, jego wartosci sa dostepne dla pozostalych metod
     Uzytkownik podajDaneNowegoUzytkownika();
     int pobierzIdNowegoUzytkownika();
     bool czyIstniejeLogin(string login);
-    PlikZuzytkownikami plikZuzytkownikami;
+    PlikZuzytkownikami plikZuzytkownikami; //obiekt plikZuzytkownikami z klasy PlikZuzytkownikami
+    string wczytajLinie();
+
 
 public:
     UzytkownikMenedzer(string nazwaPlikuZUzytkownikami) : plikZuzytkownikami(nazwaPlikuZUzytkownikami){};
-    void rejestracjaUzytkownika();
+    void rejestracjaUzytkownika(); //zainicjowanie funkcji rejestracjaUzytkownika
     void wczytajUzytkownikowZPliku();
+    int logowanieUzytkownika();
 
+    void zmianaHaslaZalogowanegoUzytkownika();
+    void wypiszCalyvectro();
 };
 
 #endif // UZYTKOWNIKMENADZER_H

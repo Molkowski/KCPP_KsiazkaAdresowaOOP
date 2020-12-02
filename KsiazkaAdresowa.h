@@ -9,13 +9,15 @@ using namespace std;
 
 class KsiazkaAdresowa
 {
-    UzytkownikMenedzer uzytkownikMenedzer;
+    UzytkownikMenedzer uzytkownikMenedzer; //tworzenie obiektu o nazwie uzytkownikMenedzer w klasie UzytkownikMenedzer
 
 public:
     KsiazkaAdresowa(string nazwaPlikuZUzytkownikami) : uzytkownikMenedzer(nazwaPlikuZUzytkownikami) {
-    uzytkownikMenedzer.wczytajUzytkownikowZPliku();
-    };
+    uzytkownikMenedzer.wczytajUzytkownikowZPliku();};
     void rejestracjaUzytkownika();
+    int logowanieUzytkownika();
+    void zmianaHaslaZalogowanegoUzytkownika();
+    void wypiszCalyvectro();
 };
 
 #endif // KSIAZKAADRESOWA_H
