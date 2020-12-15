@@ -1,4 +1,5 @@
 #include "UzytkownikMenedzer.h"
+#pragma once
 
 Uzytkownik UzytkownikMenedzer:: podajDaneNowegoUzytkownika()  // W tej funkcji tworzy sie funkcje a nastepnie przypisuje sie jej parametry (id, login, haslo)
 {
@@ -21,6 +22,11 @@ Uzytkownik UzytkownikMenedzer:: podajDaneNowegoUzytkownika()  // W tej funkcji t
     uzytkownik.ustawHaslo(haslo);
 
     return uzytkownik;
+}
+
+int pobierzIdZakogowanegoUzytkownika()
+{
+    return idZalogowanegoUzytkownika;
 }
 
 void UzytkownikMenedzer::wczytajUzytkownikowZPliku()

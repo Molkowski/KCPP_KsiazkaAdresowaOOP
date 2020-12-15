@@ -28,8 +28,8 @@ fontsize=10
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>990</x>
-      <y>180</y>
+      <x>1098</x>
+      <y>288</y>
       <w>189</w>
       <h>126</h>
     </coordinates>
@@ -43,23 +43,25 @@ fontsize=10
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>162</x>
-      <y>99</y>
-      <w>297</w>
+      <x>0</x>
+      <y>117</y>
+      <w>387</w>
       <h>315</h>
     </coordinates>
     <panel_attributes>KsiazkaAdresowa
 --
-UzytkownikMenedzer uzytkownikMenedzer
+-UzytkownikMenedzer uzytkownikMenedzer
 --
-rejestracjaUzytkownika(): void 
-</panel_attributes>
++KsiazkaAdresowa();
++rejestracjaUzytkownika(): void 
++logowanieUzytkownika(): int
++zmianaHaslaZalogowanegoUzytkownika(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>504</x>
+      <x>450</x>
       <y>108</y>
       <w>387</w>
       <h>279</h>
@@ -77,6 +79,8 @@ rejestracjaUzytkownika(): void
 - pobierzIdNowegoUzytkownika(): int 
 - czyIstniejeLogin(): bool 
 PlikZuzytkownikami plikZuzytkownikami
+- wczytajLinie: string;
+
 
 
 </panel_attributes>
@@ -85,8 +89,8 @@ PlikZuzytkownikami plikZuzytkownikami
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>846</x>
-      <y>405</y>
+      <x>864</x>
+      <y>108</y>
       <w>396</w>
       <h>153</h>
     </coordinates>
@@ -94,10 +98,12 @@ PlikZuzytkownikami plikZuzytkownikami
 --
 -nazwaPlikuZuzytkownikami: String
 -plikTekstowy;: fstream 
+-uzytkownicy: vector &lt;Uzytkownik&gt;
 --
 +PlikZuzytkownikami();
 +dopiszUzytkownikaDoPliku(): void
-+wczytajUzytkownikowZpliku(): void
++wczytajUzytkownikowZpliku(): vector
++ zapiszWszystkichUzytkownikowDoPliku(): void
 -zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(): string 
 -czyPlikJestPusty(): bool 
 </panel_attributes>
@@ -106,14 +112,33 @@ PlikZuzytkownikami plikZuzytkownikami
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>909</x>
-      <y>684</y>
+      <x>864</x>
+      <y>288</y>
       <w>216</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>MetodyPomocnicze
 --
 +konwerjsaIntNaString(): string </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>567</x>
+      <y>477</y>
+      <w>450</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>Adresaci
+--
+
+--
+dodawanieNowegoAdresata(): 
+wyswietlanieWszystkichAdresatow(): 
+oraz zapisywanie ich do vectora przy uruchamianiu programu
+
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

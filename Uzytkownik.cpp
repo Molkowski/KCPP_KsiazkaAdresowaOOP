@@ -1,4 +1,5 @@
 #include "Uzytkownik.h"
+#pragma once
 
     void Uzytkownik::ustawId(int noweId)
     {

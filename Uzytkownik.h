@@ -1,6 +1,4 @@
-#ifndef UZYTKOWNIK_H
-#define UZYTKOWNIK_H
-
+#pragma once
 
 #include <iostream>
 
@@ -22,4 +20,3 @@ public:
     string pobierzHaslo();
 };
 
-#endif // UZYTKOWNIK_H

@@ -3,8 +3,9 @@
 3|Kuba|kkk|
 4|Daria|dddd|
 5|Lolek|jkljkl|
-6|Marian|mmm|
+6|Marian|mendaspoleczna|
 7|Darek|ddd|
 8|Konrad|kkkkkkk|
 9|kubek|kkk|
 10|Januszex|zlotowki|
+11|Ferdek|fff|

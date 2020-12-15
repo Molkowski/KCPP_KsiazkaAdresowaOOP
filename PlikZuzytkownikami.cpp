@@ -1,4 +1,5 @@
 #include "PlikZuzytkownikami.h"
+#pragma once
 
 
 void PlikZuzytkownikami::dopiszUzytkownikaDoPliku(Uzytkownik uzytkownik)

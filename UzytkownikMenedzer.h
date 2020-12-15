@@ -1,5 +1,6 @@
-#ifndef UZYTKOWNIKMENADZER_H
-#define UZYTKOWNIKMENADZER_H
+#pragma once
+
+using namespace std;
 
 #include <iostream>
 #include <vector>
@@ -9,23 +10,27 @@
 
 #include "Uzytkownik.h"
 #include "PlikZuzytkownikami.h"
-
-using namespace std;
+#include "MetodyPomocnicze.h"
 
 class UzytkownikMenedzer
 {
+
+    PlikZuzytkownikami plikZuzytkownikami;
     int idZalogowanegoUzytkownika;
-    vector <Uzytkownik> uzytkownicy; //vector o nazwie uzytkownicy przyjmujacy warto�ci z klasy Uzytkownik (id, login, haslo.
+    vector <Uzytkownik> uzytkownicy; //vector o nazwie uzytkownicy przyjmujacy wartoœci z klasy Uzytkownik (id, login, haslo.
                                     //W momencie przypisania do niego wartosci w jednej z metod, jego wartosci sa dostepne dla pozostalych metod
     Uzytkownik podajDaneNowegoUzytkownika();
     int pobierzIdNowegoUzytkownika();
     bool czyIstniejeLogin(string login);
-    PlikZuzytkownikami plikZuzytkownikami; //obiekt plikZuzytkownikami z klasy PlikZuzytkownikami
+
     string wczytajLinie();
 
 
 public:
-    UzytkownikMenedzer(string nazwaPlikuZUzytkownikami) : plikZuzytkownikami(nazwaPlikuZUzytkownikami){};
+    UzytkownikMenedzer(string nazwaPlikuZUzytkownikami) : plikZuzytkownikami(nazwaPlikuZUzytkownikami){}; // <- Konstruktor z lista inicjalizacyjna klasy UzytkownikMenedzer,
+
+    int pobierzIdZalogowanegoUzytkownika();                                                                                                     //plikZuzytkownikami - nazwa zmiennej
+                                                                                                         //nazwaPlikZUzytkownikami - wartość zmiennej
     void rejestracjaUzytkownika(); //zainicjowanie funkcji rejestracjaUzytkownika
     void wczytajUzytkownikowZPliku();
     int logowanieUzytkownika();
@@ -34,4 +39,4 @@ public:
     void wypiszCalyvectro();
 };
 
-#endif // UZYTKOWNIKMENADZER_H
+

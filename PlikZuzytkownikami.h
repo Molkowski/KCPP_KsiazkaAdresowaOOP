@@ -1,5 +1,4 @@
-#ifndef PLIKZUZYTKOWNIKAMI_H
-#define PLIKZUZYTKOWNIKAMI_H
+#pragma once
 
 #include <iostream>
 #include <fstream>
@@ -12,8 +11,8 @@
 
 using namespace std;
 
- class PlikZuzytkownikami
- {
+class PlikZuzytkownikami
+{
 
    const string nazwaPlikuZUzytkownikami;
 
@@ -31,4 +30,3 @@ public:
 
  };
 
-#endif

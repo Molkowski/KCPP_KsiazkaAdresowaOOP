@@ -1,8 +1,8 @@
-#ifndef METODYPOMOCNICZE_H
-#define METODYPOMOCNICZE_H
+#pragma once
 
 #include <iostream>
 #include <sstream>
+#include <algorithm>
 
 #include "Uzytkownik.h"
 
@@ -12,6 +12,8 @@ class MetodyPomocnicze
 {
 public:
    static string konwerjsaIntNaString(int liczba);
+   int konwersjaStringNaInt(string liczba);
+   string wczytajLinie();
+   string zamienPierwszaLitereNaDuzaAPozostaleNaMale(string tekst);
 };
 
-#endif

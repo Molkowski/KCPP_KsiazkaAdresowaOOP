@@ -1,30 +1,32 @@
 # depslib dependency file v1.0
-1606855157 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\main.cpp
+1607980855 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\main.cpp
 	<iostream>
 	"KsiazkaAdresowa.h"
 
-1606854723 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.cpp
+1607866546 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.cpp
 	"KsiazkaAdresowa.h"
 
-1605476023 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.cpp
+1607288276 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.cpp
 	"Uzytkownik.h"
 
-1606854723 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.h
+1608062925 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\ksiazkaadresowa.h
 	<iostream>
 	"UzytkownikMenedzer.h"
+	"AdresatMenedzer.h"
 
-1605476023 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.h
+1607287898 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownik.h
 	<iostream>
 
-1605476022 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\metodypomocnicze.cpp
+1607288276 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\metodypomocnicze.cpp
 	"MetodyPomocnicze.h"
 
-1605476022 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\metodypomocnicze.h
+1607287491 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\metodypomocnicze.h
 	<iostream>
 	<sstream>
+	<algorithm>
 	"Uzytkownik.h"
 
-1606938329 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownikmenedzer.h
+1608062595 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownikmenedzer.h
 	<iostream>
 	<vector>
 	<windows.h>
@@ -32,8 +34,9 @@
 	<sstream>
 	"Uzytkownik.h"
 	"PlikZuzytkownikami.h"
+	"MetodyPomocnicze.h"
 
-1606938540 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\plikzuzytkownikami.h
+1607287230 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\plikzuzytkownikami.h
 	<iostream>
 	<fstream>
 	<vector>
@@ -41,9 +44,37 @@
 	"Uzytkownik.h"
 	"MetodyPomocnicze.h"
 
-1606938540 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\plikzuzytkownikami.cpp
+1607288276 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\plikzuzytkownikami.cpp
 	"PlikZuzytkownikami.h"
 
-1606938319 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownikmenedzer.cpp
+1607288326 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\uzytkownikmenedzer.cpp
 	"UzytkownikMenedzer.h"
+
+1607288276 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\adresatmenedzer.cpp
+	"AdresatMenedzer.h"
+
+1607288276 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\adresat.cpp
+	"Adresat.h"
+
+1607287898 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\adresat.h
+	<iostream>
+
+1607980855 source:c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\plikzadresatami.cpp
+	"PlikZadresatami.h"
+	<stdlib.h>
+
+1608061899 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\plikzadresatami.h
+	<iostream>
+	<vector>
+	<fstream>
+	"Adresat.h"
+	"MetodyPomocnicze.h"
+
+1608062925 c:\users\olkow\desktop\mateusz\_programowanie\kurs cpp\_programowanie obiektowe\ksiazkaadresowa\kcpp_ksiazkaadresowaoop\adresatmenedzer.h
+	<iostream>
+	<vector>
+	"PlikZadresatami.h"
+	"Adresat.h"
+	"UzytkownikMenedzer.h"
+	"MetodyPomocnicze.h"
 

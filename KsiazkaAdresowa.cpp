@@ -21,3 +21,7 @@ void KsiazkaAdresowa::zmianaHaslaZalogowanegoUzytkownika()
     uzytkownikMenedzer.zmianaHaslaZalogowanegoUzytkownika();
 }
 
+Adresat KsiazkaAdresowa::podajDaneNowegoAdresata()
+{
+    adresatMenedzer.podajDaneNowegoAdresata();
+}
